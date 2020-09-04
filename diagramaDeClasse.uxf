@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>567</x>
+      <y>504</y>
+      <w>21</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>868</x>
+      <y>21</y>
+      <w>112</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>DetalhesProduto
+--
+marca: String
+preco: Double
+especificoes: String
+disponibilidade: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>889</x>
+      <y>175</y>
+      <w>77</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Produtos
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>238</y>
+      <w>105</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Pagamento
+--
+quantia: Double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>574</x>
+      <y>238</y>
+      <w>98</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>venda
+--
+data: date
+dataLimite: date
+pago: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>567</x>
+      <y>7</y>
+      <w>112</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>detalhesPedido
+--
+quantidade: int
+subtotal: Double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>945</x>
+      <y>84</y>
+      <w>63</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;&gt;
+descreve</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>483</x>
+      <y>252</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;&gt;
+  paga com
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>798</x>
+      <y>175</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+armazena
+m1=0..*
+m2=1</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>721</x>
+      <y>154</y>
+      <w>84</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>loja
+--
+nome
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>518</x>
+      <y>574</y>
+      <w>77</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Física
+--
+cpf: String
+rg: String
+nasc: date
+sexo: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>602</x>
+      <y>287</y>
+      <w>63</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=-
+gera uma
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>42</y>
+      <w>42</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=-
+gera
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>7</y>
+      <w>364</w>
+      <h>203</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+m1=1
+m2=1..*
+</panel_attributes>
+    <additional_attributes>10.0;10.0;500.0;10.0;500.0;260.0;420.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>98</y>
+      <w>287</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;&gt;
+contém
+m1=1
+m2=1..*</panel_attributes>
+    <additional_attributes>10.0;200.0;10.0;20.0;370.0;20.0;370.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>574</x>
+      <y>364</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>pedido</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>210</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>PagamentoCartao
+--
+numeroCartao: String
+bandeira: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>266</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Pagamentocheque
+--
+nomeBanco: String
+banco: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>105</x>
+      <y>231</y>
+      <w>105</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>105</x>
+      <y>266</y>
+      <w>105</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>196</x>
+      <y>238</y>
+      <w>98</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>TipoPagamento
+--
+nomeCliente: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>609</x>
+      <y>574</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Juridica
+--
+cnpj: String
+nomeFantasia: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>504</y>
+      <w>21</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>448</y>
+      <w>98</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Cliente
+--
+nome: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>602</x>
+      <y>378</y>
+      <w>49</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=-
+realiza
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>756</x>
+      <y>476</y>
+      <w>112</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>localizacao
+--
+endereco: String
+logradouro: String
+numero: String
+bairro: String
+cep: String
+cidade: String
+complemento: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>756</x>
+      <y>413</y>
+      <w>112</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Contato
+--
+telefone: String
+email: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>651</x>
+      <y>483</y>
+      <w>119</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>651</x>
+      <y>448</y>
+      <w>119</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>665</x>
+      <y>210</y>
+      <w>112</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-
+                
+m1=1
+m2=0..*
+
+
+registra
+</panel_attributes>
+    <additional_attributes>90.0;10.0;90.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>287</x>
+      <y>252</y>
+      <w>112</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-
+  possui
+m1=1..2
+m2=1</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>791</x>
+      <y>210</y>
+      <w>112</w>
+      <h>336</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+</panel_attributes>
+    <additional_attributes>110.0;460.0;140.0;460.0;140.0;260.0;10.0;260.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>777</x>
+      <y>210</y>
+      <w>21</w>
+      <h>217</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+</panel_attributes>
+    <additional_attributes>10.0;290.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>784</x>
+      <y>0</y>
+      <w>133</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-
+registra</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+</diagram>
