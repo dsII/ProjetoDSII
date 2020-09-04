@@ -1,4 +1,9 @@
 # Projeto Desenvolvimento de Sistemas II
+
+Iago de Oliveira - 41908635
+Pedro Kenzo - 41926102
+Guilherme Carvalho - 41921240
+
 #TEMA DO PROJETO
 
   Loja de eletrônicos
