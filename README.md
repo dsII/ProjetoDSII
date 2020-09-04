@@ -22,6 +22,10 @@ Guilherme Carvalho - 41921240
   Controle preciso de estoque. 
   Maior organização financeira e fiscal. 
   Surpreender positivamente os clientes. 
+  
+  
+  
+Os padrões de análise usados na modelagem do diagrama de classe foram:  
 
 
 
