@@ -27,7 +27,8 @@ Guilherme Carvalho - 41921240
   
 O padrão de análise usado na modelagem do diagrama de classe foi:  Template Method pois permite que subclasses redefinam certos passos de um algoritmo sem mudar a estrutura do mesmo.
 
-
+	Diagrama de dominio 
+Realizado com a entidade de intereesse sendo a "compra".
 
 
 
