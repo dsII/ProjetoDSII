@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>8</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>352</x>
-      <y>192</y>
-      <w>32</w>
-      <h>32</h>
+      <x>306</x>
+      <y>207</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>392</x>
-      <y>0</y>
-      <w>32</w>
-      <h>32</h>
+      <x>378</x>
+      <y>9</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>376</x>
-      <y>48</y>
-      <w>72</w>
-      <h>32</h>
+      <x>360</x>
+      <y>63</y>
+      <w>81</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>compra</panel_attributes>
     <additional_attributes/>
@@ -37,10 +37,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>24</y>
-      <w>24</w>
-      <h>40</h>
+      <x>387</x>
+      <y>36</y>
+      <w>27</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
@@ -48,10 +48,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>48</y>
-      <w>136</w>
-      <h>32</h>
+      <x>432</x>
+      <y>63</y>
+      <w>153</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 adicionaProduto</panel_attributes>
@@ -60,10 +60,10 @@ adicionaProduto</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>560</x>
-      <y>48</y>
-      <w>128</w>
-      <h>32</h>
+      <x>567</x>
+      <y>63</y>
+      <w>144</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>adicionandoProduto</panel_attributes>
     <additional_attributes/>
@@ -71,10 +71,10 @@ adicionaProduto</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>16</y>
-      <w>160</w>
-      <h>64</h>
+      <x>675</x>
+      <y>27</y>
+      <w>180</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 adicionaProduto</panel_attributes>
@@ -83,33 +83,33 @@ adicionaProduto</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>72</y>
-      <w>96</w>
-      <h>64</h>
+      <x>639</x>
+      <y>90</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-possuiProduto</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>552</x>
-      <y>264</y>
-      <w>176</w>
-      <h>32</h>
+      <x>558</x>
+      <y>270</y>
+      <w>198</w>
+      <h>36</h>
     </coordinates>
-    <panel_attributes>EscolherFormaPagamento</panel_attributes>
+    <panel_attributes>EscolheFormaPagamento</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
-      <x>600</x>
-      <y>336</y>
-      <w>88</w>
-      <h>16</h>
+      <x>603</x>
+      <y>351</y>
+      <w>108</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lw=5
 </panel_attributes>
@@ -118,10 +118,10 @@ possuiProduto</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>288</y>
-      <w>96</w>
-      <h>72</h>
+      <x>639</x>
+      <y>297</y>
+      <w>108</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 escolheForma</panel_attributes>
@@ -130,10 +130,10 @@ escolheForma</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>536</x>
-      <y>400</y>
-      <w>112</w>
-      <h>32</h>
+      <x>540</x>
+      <y>414</y>
+      <w>126</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>PagamentoCartao</panel_attributes>
     <additional_attributes/>
@@ -141,10 +141,10 @@ escolheForma</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>664</x>
-      <y>400</y>
-      <w>128</w>
-      <h>32</h>
+      <x>684</x>
+      <y>414</y>
+      <w>144</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>PagamentoCheque</panel_attributes>
     <additional_attributes/>
@@ -152,54 +152,54 @@ escolheForma</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>432</x>
-      <y>192</y>
-      <w>72</w>
-      <h>32</h>
+      <x>378</x>
+      <y>207</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
-    <panel_attributes>cancelado</panel_attributes>
+    <panel_attributes>VendaCancelada</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
-      <y>336</y>
-      <w>24</w>
-      <h>80</h>
+      <x>630</x>
+      <y>351</y>
+      <w>27</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>664</x>
-      <y>336</y>
-      <w>24</w>
-      <h>80</h>
+      <x>684</x>
+      <y>351</y>
+      <w>27</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>608</x>
-      <y>424</y>
-      <w>112</w>
-      <h>96</h>
+      <x>621</x>
+      <y>441</y>
+      <w>126</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0;120.0;60.0;120.0;10.0;120.0;60.0;60.0;60.0;60.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;120.0;50.0;120.0;10.0;120.0;50.0;60.0;50.0;60.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
-      <x>624</x>
-      <y>496</y>
-      <w>64</w>
-      <h>16</h>
+      <x>639</x>
+      <y>504</y>
+      <w>72</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lw=5
 </panel_attributes>
@@ -208,22 +208,22 @@ escolheForma</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>648</x>
-      <y>496</y>
-      <w>112</w>
+      <x>666</x>
+      <y>504</y>
+      <w>126</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 efetuarPagamento</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>592</x>
-      <y>552</y>
-      <w>128</w>
-      <h>32</h>
+      <x>603</x>
+      <y>558</y>
+      <w>144</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>autorizaPagamento</panel_attributes>
     <additional_attributes/>
@@ -232,9 +232,9 @@ efetuarPagamento</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>504</x>
-      <y>632</y>
-      <w>152</w>
-      <h>32</h>
+      <y>621</y>
+      <w>171</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 pagamentoAprovado</panel_attributes>
@@ -243,21 +243,21 @@ pagamentoAprovado</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>496</x>
-      <y>336</y>
-      <w>128</w>
-      <h>56</h>
+      <x>450</x>
+      <y>351</y>
+      <w>189</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>140.0;10.0;140.0;50.0;10.0;50.0</additional_attributes>
+    <additional_attributes>190.0;10.0;190.0;40.0;10.0;40.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>432</x>
-      <y>360</y>
-      <w>72</w>
-      <h>32</h>
+      <x>423</x>
+      <y>414</y>
+      <w>81</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>dinheiro</panel_attributes>
     <additional_attributes/>
@@ -265,22 +265,22 @@ pagamentoAprovado</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>384</y>
-      <w>24</w>
-      <h>264</h>
+      <x>459</x>
+      <y>441</y>
+      <w>27</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;310.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;200.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>640</x>
-      <y>632</y>
-      <w>32</w>
-      <h>32</h>
+      <x>657</x>
+      <y>621</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -288,91 +288,91 @@ pagamentoAprovado</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>648</x>
-      <y>576</y>
-      <w>24</w>
+      <x>666</x>
+      <y>585</y>
+      <w>27</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>630</x>
+      <y>126</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>639</x>
+      <y>153</y>
+      <w>108</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>616</x>
-      <y>120</y>
-      <w>32</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>624</x>
-      <y>144</y>
-      <w>56</w>
-      <h>64</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-realiza</panel_attributes>
+possuiProduto</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>408</x>
-      <y>72</y>
-      <w>224</w>
-      <h>80</h>
+      <x>468</x>
+      <y>126</y>
+      <w>180</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 naoPossuiProduto</panel_attributes>
-    <additional_attributes>260.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>424</x>
-      <y>632</y>
-      <w>88</w>
-      <h>32</h>
+      <x>405</x>
+      <y>621</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
-    <panel_attributes>Finalizada</panel_attributes>
+    <panel_attributes>VendaFinalizada</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>600</x>
-      <y>192</y>
-      <w>72</w>
-      <h>32</h>
+      <x>576</x>
+      <y>207</y>
+      <w>162</w>
+      <h>36</h>
     </coordinates>
-    <panel_attributes>venda</panel_attributes>
+    <panel_attributes>PedidoDeVenda</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>216</y>
-      <w>24</w>
-      <h>64</h>
+      <x>639</x>
+      <y>234</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>632</y>
-      <w>80</w>
-      <h>32</h>
+      <x>333</x>
+      <y>621</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 </panel_attributes>
@@ -381,34 +381,34 @@ naoPossuiProduto</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>664</x>
-      <y>200</y>
-      <w>312</w>
-      <h>464</h>
+      <x>684</x>
+      <y>216</y>
+      <w>351</w>
+      <h>441</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 pagamentoReprovado</panel_attributes>
-    <additional_attributes>10.0;560.0;230.0;560.0;230.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;470.0;230.0;470.0;230.0;10.0;60.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>496</x>
-      <y>192</y>
-      <w>120</w>
-      <h>32</h>
+      <x>477</x>
+      <y>207</y>
+      <w>117</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 cancelar</panel_attributes>
-    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>336</x>
-      <y>632</y>
-      <w>32</w>
-      <h>32</h>
+      <x>306</x>
+      <y>621</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -416,10 +416,68 @@ cancelar</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>376</x>
-      <y>192</y>
-      <w>72</w>
-      <h>32</h>
+      <x>333</x>
+      <y>207</y>
+      <w>63</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>396</x>
+      <y>126</y>
+      <w>81</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Fornecedor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>18</y>
+      <w>81</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>306</x>
+      <y>126</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>153</y>
+      <w>126</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+naoPossuiProduto</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>333</x>
+      <y>126</y>
+      <w>81</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 </panel_attributes>
