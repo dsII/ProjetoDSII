@@ -60,15 +60,16 @@ quantia: Double
     <id>UMLClass</id>
     <coordinates>
       <x>608</x>
-      <y>216</y>
+      <y>200</y>
       <w>112</w>
-      <h>64</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>venda
 --
 data: date
 dataLimite: date
-pago: boolean</panel_attributes>
+pago: boolean
+procoTotal: Double</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -81,7 +82,7 @@ pago: boolean</panel_attributes>
     </coordinates>
     <panel_attributes>detalhesPedido
 --
-subtotal: Double</panel_attributes>
+quantidade: int</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -175,13 +176,13 @@ m2=0..*</panel_attributes>
       <x>632</x>
       <y>72</y>
       <w>56</w>
-      <h>160</h>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=-
 possui
 m1=1
 m2=1</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -210,7 +211,7 @@ m2=1..*
 contém
 m1=1
 m2= 1..*</panel_attributes>
-    <additional_attributes>10.0;100.0;10.0;20.0;390.0;20.0;390.0;110.0</additional_attributes>
+    <additional_attributes>10.0;80.0;10.0;20.0;390.0;20.0;390.0;110.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
