@@ -78,9 +78,9 @@ procoTotal: Double</panel_attributes>
       <x>616</x>
       <y>24</y>
       <w>128</w>
-      <h>48</h>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>detalhesPedido
+    <panel_attributes>item
 --
 quantidade: int</panel_attributes>
     <additional_attributes/>
@@ -105,8 +105,8 @@ descreve</panel_attributes>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;&gt;&gt;
-  paga com
+    <panel_attributes>lt=-
+ possui
 m1=1
 m2=1</panel_attributes>
     <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
@@ -159,30 +159,16 @@ sexo: String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>264</y>
-      <w>48</w>
-      <h>96</h>
-    </coordinates>
-    <panel_attributes>lt=-
-gera
-m1=1
-m2=0..*</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
       <x>640</x>
-      <y>64</y>
+      <y>56</y>
       <w>56</w>
-      <h>144</h>
+      <h>152</h>
     </coordinates>
-    <panel_attributes>lt=-
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;&gt;
 possui
 m1=1
 m2=1</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -207,24 +193,11 @@ m2=1..*
       <w>344</w>
       <h>104</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;&gt;&gt;&gt;&gt;
+    <panel_attributes>lt=-
 contém
 m1=1
 m2= 1..*</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;20.0;390.0;20.0;390.0;110.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>608</x>
-      <y>344</y>
-      <w>120</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>pedido
---
-</panel_attributes>
-    <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
@@ -310,15 +283,15 @@ nome: String
     <id>Relation</id>
     <coordinates>
       <x>656</x>
-      <y>368</y>
-      <w>56</w>
-      <h>104</h>
+      <y>264</y>
+      <w>48</w>
+      <h>208</h>
     </coordinates>
     <panel_attributes>lt=-
-realiza
+gera
 m1=1
 m2=0..*</panel_attributes>
-    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;240.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
