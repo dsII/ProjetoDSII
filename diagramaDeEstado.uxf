@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>13</zoom_level>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>306</x>
-      <y>207</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>378</x>
-      <y>9</y>
-      <w>36</w>
-      <h>36</h>
+      <x>260</x>
+      <y>156</y>
+      <w>52</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -26,461 +15,105 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>360</x>
-      <y>63</y>
-      <w>81</w>
-      <h>36</h>
+      <x>676</x>
+      <y>494</y>
+      <w>221</w>
+      <h>52</h>
     </coordinates>
-    <panel_attributes>compra</panel_attributes>
+    <panel_attributes>EsperandoPagamento</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>387</x>
-      <y>36</y>
-      <w>27</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>432</x>
-      <y>63</y>
-      <w>171</w>
-      <h>36</h>
+      <x>429</x>
+      <y>494</y>
+      <w>273</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-adicionaProduto</panel_attributes>
-    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>585</x>
-      <y>63</y>
-      <w>144</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>estoqueProduto</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>693</x>
-      <y>27</y>
-      <w>162</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-adicionaProduto</panel_attributes>
-    <additional_attributes>40.0;60.0;60.0;60.0;60.0;10.0;10.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>657</x>
-      <y>90</y>
-      <w>27</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>558</x>
-      <y>270</y>
-      <w>198</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>EscolheFormaPagamento</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSyncBarHorizontal</id>
-    <coordinates>
-      <x>603</x>
-      <y>351</y>
-      <w>108</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>lw=5
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>639</x>
-      <y>297</y>
-      <w>108</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-escolheForma</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>540</x>
-      <y>414</y>
-      <w>126</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>PagamentoCartao</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>684</x>
-      <y>414</y>
-      <w>144</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>PagamentoCheque</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>378</x>
-      <y>207</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>VendaCancelada</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>630</x>
-      <y>351</y>
-      <w>27</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>684</x>
-      <y>351</y>
-      <w>27</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>621</x>
-      <y>441</y>
-      <w>126</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0;120.0;50.0;120.0;10.0;120.0;50.0;60.0;50.0;60.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSyncBarHorizontal</id>
-    <coordinates>
-      <x>639</x>
-      <y>504</y>
-      <w>72</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>lw=5
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>666</x>
-      <y>504</y>
-      <w>126</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-efetuarPagamento</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>603</x>
-      <y>558</y>
-      <w>144</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>autorizaPagamento</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>504</x>
-      <y>621</y>
-      <w>171</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-pagamentoAprovado</panel_attributes>
-    <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>351</y>
-      <w>189</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>190.0;10.0;190.0;40.0;10.0;40.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>423</x>
-      <y>414</y>
-      <w>81</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>dinheiro</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>459</x>
-      <y>441</y>
-      <w>27</w>
-      <h>198</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;200.0</additional_attributes>
+RegistraPagamento</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>657</x>
-      <y>621</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>666</x>
-      <y>585</y>
-      <w>27</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>648</x>
-      <y>126</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>657</x>
-      <y>153</y>
-      <w>108</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-possuiProduto</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>468</x>
-      <y>126</y>
-      <w>198</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-naoPossuiProduto</panel_attributes>
-    <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>405</x>
-      <y>621</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>VendaFinalizada</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>576</x>
-      <y>207</y>
-      <w>162</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>PedidoDeVenda</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>639</x>
-      <y>234</y>
-      <w>27</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>333</x>
-      <y>621</y>
-      <w>90</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-</panel_attributes>
-    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>684</x>
-      <y>216</y>
-      <w>351</w>
-      <h>441</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-pagamentoReprovado</panel_attributes>
-    <additional_attributes>10.0;470.0;230.0;470.0;230.0;10.0;60.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>477</x>
-      <y>207</y>
-      <w>117</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-cancelar</panel_attributes>
-    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>306</x>
-      <y>621</y>
-      <w>36</w>
-      <h>36</h>
+      <x>390</x>
+      <y>494</y>
+      <w>52</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
+    <id>UMLState</id>
     <coordinates>
-      <x>333</x>
-      <y>207</y>
-      <w>63</w>
-      <h>36</h>
+      <x>390</x>
+      <y>156</y>
+      <w>156</w>
+      <h>52</h>
     </coordinates>
-    <panel_attributes>lt=-&gt;
-</panel_attributes>
-    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+    <panel_attributes>EsperandoVenda</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>396</x>
-      <y>126</y>
-      <w>81</w>
-      <h>36</h>
+      <x>702</x>
+      <y>156</y>
+      <w>156</w>
+      <h>52</h>
     </coordinates>
-    <panel_attributes>Fornecedor</panel_attributes>
+    <panel_attributes>IncluindoItens</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>315</x>
-      <y>18</y>
-      <w>81</w>
-      <h>126</h>
+      <x>754</x>
+      <y>195</y>
+      <w>156</w>
+      <h>325</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-</panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;10.0;70.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>306</x>
-      <y>126</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
+FinalizaVenda</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>315</x>
-      <y>153</y>
-      <w>126</w>
-      <h>72</h>
+      <x>533</x>
+      <y>156</y>
+      <w>195</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-naoPossuiProduto</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+IncluirItens</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>126</y>
-      <w>81</w>
-      <h>36</h>
+      <x>819</x>
+      <y>91</y>
+      <w>104</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+IncluirItens</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;20.0;60.0;20.0;60.0;60.0;30.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>156</y>
+      <w>117</w>
+      <h>52</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 </panel_attributes>
-    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
   </element>
 </diagram>
