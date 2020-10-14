@@ -4,7 +4,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
+      <x>624</x>
       <y>432</y>
       <w>24</w>
       <h>128</h>
@@ -16,7 +16,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>944</x>
+      <x>848</x>
       <y>48</y>
       <w>128</w>
       <h>80</h>
@@ -32,7 +32,7 @@ disponibilidade: boolean</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>984</x>
+      <x>888</x>
       <y>224</y>
       <w>104</w>
       <h>32</h>
@@ -45,7 +45,7 @@ disponibilidade: boolean</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>504</x>
+      <x>408</x>
       <y>216</y>
       <w>120</w>
       <h>48</h>
@@ -59,7 +59,7 @@ quantia: Double
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>704</x>
+      <x>608</x>
       <y>200</y>
       <w>112</w>
       <h>80</h>
@@ -75,7 +75,7 @@ procoTotal: Double</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>720</x>
+      <x>624</x>
       <y>32</y>
       <w>128</w>
       <h>40</h>
@@ -88,7 +88,7 @@ quantidade: int</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1048</x>
+      <x>952</x>
       <y>120</y>
       <w>72</w>
       <h>120</h>
@@ -100,7 +100,7 @@ descreve</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>616</x>
+      <x>520</x>
       <y>232</y>
       <w>104</w>
       <h>40</h>
@@ -114,7 +114,7 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>664</x>
+      <x>568</x>
       <y>544</y>
       <w>88</w>
       <h>80</h>
@@ -130,7 +130,7 @@ sexo: String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>744</x>
+      <x>648</x>
       <y>64</y>
       <w>104</w>
       <h>96</h>
@@ -143,7 +143,7 @@ m1=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
+      <x>744</x>
       <y>32</y>
       <w>320</w>
       <h>232</h>
@@ -158,7 +158,7 @@ m2=1..*
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>128</x>
+      <x>32</x>
       <y>280</y>
       <w>128</w>
       <h>56</h>
@@ -173,7 +173,7 @@ banco: String
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>248</x>
+      <x>152</x>
       <y>184</y>
       <w>56</w>
       <h>128</h>
@@ -185,7 +185,7 @@ banco: String
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>304</x>
+      <x>208</x>
       <y>224</y>
       <w>112</w>
       <h>40</h>
@@ -198,7 +198,7 @@ banco: String
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>760</x>
+      <x>664</x>
       <y>544</y>
       <w>144</w>
       <h>80</h>
@@ -212,7 +212,7 @@ nomeFantasia: String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>792</x>
+      <x>696</x>
       <y>432</y>
       <w>24</w>
       <h>128</h>
@@ -224,7 +224,7 @@ nomeFantasia: String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>712</x>
+      <x>616</x>
       <y>400</y>
       <w>112</w>
       <h>40</h>
@@ -238,7 +238,7 @@ nome: String
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>760</x>
+      <x>664</x>
       <y>296</y>
       <w>80</w>
       <h>120</h>
@@ -252,7 +252,7 @@ m1=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1056</x>
+      <x>960</x>
       <y>344</y>
       <w>128</w>
       <h>64</h>
@@ -266,7 +266,7 @@ email: String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
+      <x>824</x>
       <y>352</y>
       <w>152</w>
       <h>128</h>
@@ -278,21 +278,21 @@ email: String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>408</x>
+      <x>312</x>
       <y>232</y>
       <w>112</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
   possui
-m1=1..2
+m1=1..3
 m2=1</panel_attributes>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>968</x>
+      <x>872</x>
       <y>24</y>
       <w>152</w>
       <h>32</h>
@@ -304,7 +304,7 @@ registra</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>816</x>
+      <x>720</x>
       <y>408</y>
       <w>128</w>
       <h>24</h>
@@ -315,20 +315,21 @@ registra</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
+      <x>456</x>
       <y>256</y>
       <w>176</w>
-      <h>184</h>
+      <h>176</h>
     </coordinates>
     <panel_attributes>lt=-
+realiza
 m1=1
 m2=1..*</panel_attributes>
-    <additional_attributes>200.0;200.0;10.0;200.0;10.0;10.0</additional_attributes>
+    <additional_attributes>200.0;190.0;10.0;190.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
+      <x>824</x>
       <y>448</y>
       <w>152</w>
       <h>32</h>
@@ -340,7 +341,7 @@ m2=1..*</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1056</x>
+      <x>960</x>
       <y>416</y>
       <w>128</w>
       <h>120</h>
@@ -359,7 +360,7 @@ complemento: String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>128</x>
+      <x>32</x>
       <y>216</y>
       <w>128</w>
       <h>56</h>
@@ -373,7 +374,7 @@ bandeira: String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>128</x>
+      <x>32</x>
       <y>176</y>
       <w>128</w>
       <h>32</h>
@@ -386,7 +387,7 @@ bandeira: String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>248</x>
+      <x>152</x>
       <y>232</y>
       <w>72</w>
       <h>24</h>
@@ -397,7 +398,7 @@ bandeira: String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>504</x>
+      <x>408</x>
       <y>112</y>
       <w>120</w>
       <h>32</h>
@@ -409,7 +410,7 @@ bandeira: String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
+      <x>456</x>
       <y>136</y>
       <w>48</w>
       <h>96</h>
@@ -423,7 +424,7 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>832</x>
+      <x>736</x>
       <y>200</y>
       <w>112</w>
       <h>80</h>
@@ -439,7 +440,7 @@ procoTotal: Double</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>752</x>
+      <x>656</x>
       <y>128</y>
       <w>168</w>
       <h>88</h>
@@ -454,7 +455,7 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>752</x>
+      <x>656</x>
       <y>272</y>
       <w>176</w>
       <h>48</h>
@@ -464,5 +465,19 @@ gera
 m1=0..*
 m2=0..*</panel_attributes>
     <additional_attributes>180.0;10.0;180.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>256</x>
+      <y>256</y>
+      <w>376</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=-
+utiliza
+m1=1
+m2=1..3</panel_attributes>
+    <additional_attributes>450.0;220.0;10.0;220.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
